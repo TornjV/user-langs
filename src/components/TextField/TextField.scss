@@ -1,0 +1,27 @@
+.text-field {
+  width: 100%;
+  color: black;
+  display: block;
+  margin: 0;
+  font-size: 1em;;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 10px;
+  border: solid 1px #696969;
+  box-sizing: border-box;
+  background: none;
+
+  &:focus,
+  &.focus {
+    outline: none;
+  }
+
+  &[type=number]::-webkit-inner-spin-button,
+  &[type=number]::-webkit-outer-spin-button {
+    appearance: none;
+    margin: 0;
+  }
+}
+
+

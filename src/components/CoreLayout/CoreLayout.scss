@@ -1,0 +1,31 @@
+a {
+  cursor: pointer;
+}
+
+.core-layout {
+  min-height: 100vh;
+  width: 100vw;
+  color: #000;
+
+  .container {
+    min-height: 100vh;
+    width: 100vw;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+
+    .content {
+      position: relative;
+      display: flex;
+      flex-grow: 1;
+      flex-shrink: 0;
+      justify-content: center;
+
+      > * {
+        flex: 1;
+      }
+    }
+  }
+}

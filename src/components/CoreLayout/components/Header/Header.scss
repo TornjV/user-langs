@@ -1,0 +1,18 @@
+.header {
+  margin: .5em 0;
+  color: #4F4F4F;
+
+  .content {
+    display: flex;
+    padding: 0 2.5em;
+
+    @media screen and (max-width: 768px) {
+      padding: 0 1em;
+    }
+
+    .branding {
+      width: 5em;
+      cursor: pointer;
+    }
+  }
+}

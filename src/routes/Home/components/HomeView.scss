@@ -1,0 +1,34 @@
+.home-view {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: papayawhip;
+    padding: 5em 3em;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, .2);
+
+    .lead {
+      text-align: center;
+      padding: 1em;
+    }
+
+    .input {
+      color: #696969;
+      display: flex;
+      justify-content: center;
+      padding: 1em;
+
+      @media screen and (max-width: 768px) {
+        flex-wrap: wrap;
+      }
+
+      & > * {
+        margin: 0 .5em;
+      }
+    }
+  }
+}
